@@ -1,0 +1,26 @@
+.textColor {
+    color: white;
+}
+
+.textBorder {
+    border: solid white;
+}
+
+.headerBackground {
+    background-image: url("../assets/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.cardBackground {
+    background-image: url("../assets/bg2.jpg");
+}
+
+.containerBackground {
+    background-color: #000324cc;
+}
+
+.containerBackground2 {
+    background-image: url("../assets/bg.jpg");
+}
