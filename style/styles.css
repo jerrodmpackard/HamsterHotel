@@ -1,5 +1,61 @@
+@font-face {
+    font-family: Dosis;
+    src: url("../assets/fonts/Dosis-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: sourceSansPro;
+    src: url("../assets/fonts/SourceSansPro-Regular.otf");
+}
+
+@font-face {
+    font-family: sourceSansProBold;
+    src: url("../assets/fonts/SourceSansPro-Bold.otf");
+}
+
+.dosisFont {
+    font-family: Dosis;
+}
+
+.sansProReg {
+    font-family: sourceSansPro;
+}
+
+.sansProBold {
+    font-family: sourceSansProBold;
+}
+
+a:hover {
+    color: white !important;
+    border: solid white;
+}
+
 .textColor {
     color: white;
+}
+
+.lightBlueColor {
+    color: #E5FEFF;
+}
+
+.darkBlueColor {
+    color: #1F51A8;
+}
+
+.fontSize45 {
+    font-size: 45px;
+}
+
+.fontSize35 {
+    font-size: 35px;
+}
+
+.fontSize25 {
+    font-size: 25px;
+}
+
+.fontSize20 {
+    font-size: 20px;
 }
 
 .textBorder {
@@ -47,10 +103,40 @@
     background-color: #000324;
 }
 
-.cropImg {
-    object-fit: contain;
-    position: inherit;
+.paradiseImg {
+    object-fit: cover;
+    /* position: relative; */
     object-position: center;
-    height: 450px;
+    /* float: right; */
+    height: 440px;
+    width: 100%;
 }
 
+.packagesImg {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 230px;
+}
+
+.amenitiesImg {
+    object-fit: contain;
+    /* object-position: center; */
+    width: auto;
+    height: 110px;
+}
+
+.reserveImg {
+    object-fit: cover;
+    object-position: center;
+    max-width: 100%;
+    height: 400px;
+}
+
+.marginTop {
+    margin-top: 30rem;
+}
+
+.maxHeight {
+    max-height: 80%;
+}
