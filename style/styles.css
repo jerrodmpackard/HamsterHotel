@@ -105,18 +105,22 @@ a:hover {
 
 .paradiseImg {
     object-fit: cover;
-    /* position: relative; */
-    object-position: center;
-    /* float: right; */
+    object-position: 50% 60%;
     height: 440px;
     width: 100%;
 }
 
 .packagesImg {
     object-fit: cover;
-    object-position: center;
+    object-position: 50% 40%;
     width: 100%;
     height: 230px;
+}
+
+.roomsImg {
+    object-fit: cover;
+    width: 100%;
+    height: 190px;
 }
 
 .amenitiesImg {
@@ -128,9 +132,9 @@ a:hover {
 
 .reserveImg {
     object-fit: cover;
-    object-position: center;
+    object-position: 50% 65%;
     max-width: 100%;
-    height: 400px;
+    height: 450px;
 }
 
 .marginTop {
